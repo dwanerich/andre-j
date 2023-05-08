@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: center;
+
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  border: solid 3px gold;
+  border-radius: 10px;
+  transition: box-shadow .3s;
+  margin: 50px;
+  border-radius:10px;
+  float: left;
+  height: 250px;
+  width: 450px;
+  background-color: black;
+  overflow:hidden;
+  text-decoration: none;
+  color: white
+}
+
+.work:hover {
+  box-shadow: 0 0 15px rgba(64, 65, 61, 0.49);
+  background-color: transparent;
+  border: solid 2px rgb(42, 214, 244);
+  color: black;
+  font-size: larger;
+  font-style: italic
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  /* border: solid rgb/(155, 162, 38) .25px; */
+  border-radius: 12px;
+  width: 25%;
+}
+
+.banner {
+  /* border: solid rgb/(155, 162, 38) .25px; */
+  border-radius: 12px;
+  width: 95%;
+  margin-top: -300px;
+}
