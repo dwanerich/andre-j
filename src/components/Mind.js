@@ -6,10 +6,8 @@ const Mind = () => {
   return (
     <div>
       <header className="App-header">
-      <br /> <br />
       <img src={safe} className="banner" alt="logo" />
       </header>
-      {/* <Work /> */}
     </div>
   );
 }

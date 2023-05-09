@@ -17,7 +17,6 @@ export const Nav = () => {
   }}>
     <h5 id="offcanvasTopLabel">
     </h5>
-    <a href="./Drums">DRUM MACHINE</a> <br />
     <a href="#">MARKETING</a><br />
     <a href="#">APPS</a> <br />
     <a href="#">PRESS</a> <br />
